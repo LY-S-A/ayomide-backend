@@ -15,7 +15,8 @@ app.set("trust proxy", 1);
 // ================= CORS =================
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://summer-bootcamp-two.vercel.app",
+  "https://ayomide-roan.vercel.app",
+  "https://www.ayomideyekeen.xyz",
 ];
 
 app.use(
