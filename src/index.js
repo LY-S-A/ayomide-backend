@@ -44,7 +44,7 @@ app.use((req, res, next) => {
 // ================= ROOT =================
 app.get("/", (req, res) => {
   res.json({
-    message: "Bootcamp API is running 🚀",
+    message: "Portfolio API is running 🚀",
     status: "success",
   });
 });
