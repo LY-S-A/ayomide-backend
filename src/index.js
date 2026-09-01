@@ -4,7 +4,7 @@ const cors = require("cors");
 require("dotenv").config();
 
 // ================= ROUTES =================
-const registerRoutes = require("./routes/noteRoutes");
+const noteRoutes = require("./routes/noteRoutes");
 
 // ================= APP INIT =================
 const app = express();
